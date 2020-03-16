@@ -29,6 +29,7 @@ class ThemeColor {
   static const bg_screen = Color(0xFFFAFAFA);
   static const hint_color = Color(0xFF979797);
   static const pink = Color(0xFFF77A7A);
+  static const food_category_grey = Color(0xFFF5F6F8);
 
   /// Text colors
   static const black1 = Color(0xFF2B2F33);
