@@ -1,12 +1,6 @@
 # flutter_template
 
-This is flutter template, you can use it for mobile and web
-
-# For web support
-
-Follow these 2 website to make your current flutter project to support flutter web
-1. https://medium.com/flutter-community/flutter-create-and-deploy-a-website-from-scratch-4a026ebd6c
-2. https://flutter.dev/docs/get-started/web
+This is for learning only, the idea of UI is from `dribbble.com`
 
 # Getting Started
 
