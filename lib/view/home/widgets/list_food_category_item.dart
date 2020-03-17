@@ -1,5 +1,6 @@
 import 'package:division/division.dart';
 import 'package:dribbble_clone/model/food_category/food_category.dart';
+import 'package:dribbble_clone/view/detail/detail_view.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/theme/theme_color.dart';
@@ -16,7 +17,7 @@ class ListFoodCategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Parent(
-      gesture: Gestures()..onTap(() {}),
+      gesture: Gestures()..onTap(() => Navigator.of(context).push(MaterialPageRoute(builder: (_) => DetailView(item: item)))),
       style: ParentStyle()..borderRadius(all: 10)..background.color(ThemeColor.food_category_grey)..ripple(true)..margin(top: isFirst ? 0 : 15, bottom: isLast ? 25 : 0)..padding(horizontal: 10, vertical: 12),
       child: Row(
         children: <Widget>[

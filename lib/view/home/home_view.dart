@@ -18,8 +18,8 @@ class _HomeViewState extends State<HomeView> {
 
   List<FoodCategory> _listFoodCategory = [
     FoodCategory('assets/images/appetizer.png', 'Appetizer', 12),
-    FoodCategory('assets/images/main_course.png', 'The Main Food', 12),
-    FoodCategory('assets/images/desserts.png', 'Dessert', 12),
+    FoodCategory('assets/images/main_course.png', 'The Main Food', 24),
+    FoodCategory('assets/images/desserts.png', 'Dessert', 8),
   ];
   
   @override
